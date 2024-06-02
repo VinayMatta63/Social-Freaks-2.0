@@ -1,0 +1,24 @@
+{
+  "projects": [
+    {
+      "src": "apps/chat",
+      "buildCommand": "cd apps/chat && npm run build",
+      "outputDirectory": "apps/chat/.next"
+    },
+    {
+      "src": "apps/mart",
+      "buildCommand": "cd apps/mart && npm run build",
+      "outputDirectory": "apps/mart/.next"
+    },
+    {
+      "src": "apps/social",
+      "buildCommand": "cd apps/social && npm run build",
+      "outputDirectory": "apps/social/.next"
+    },
+    {
+      "src": "apps/watch",
+      "buildCommand": "cd apps/watch && npm run build",
+      "outputDirectory": "apps/watch/.next"
+    }
+  ]
+}
